@@ -1,0 +1,4 @@
+numpy == 1.260
+pandas
+pylint
+pyest
