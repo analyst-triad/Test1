@@ -1,4 +1,4 @@
-from main import add,sub
+from main import add,sub, mul
 
 #Test #1
 def test_add():
@@ -8,3 +8,7 @@ def test_add():
 def test_sub():
     assert 0 == sub(1,1)
     assert 5 == sub(6,1)
+    
+def test_mult():
+    assert 100 == mul(10,10)
+    assert 20 == mul(5,4)
